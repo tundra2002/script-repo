@@ -5,7 +5,7 @@ import smtplib
 from jira.client import JIRA
 
 options = {
-    'server': 'https://jira.grid.nuance.com:8443',
+    'server': 'https://jira_server.com:8443',
     'verify' : '/etc/ssl/certs/extracted.pem'
 }
 jira = JIRA(options)
